@@ -1,0 +1,23 @@
+AI is everywhere now. In this series, I'll show how it can help Ops engineers in their day-to-day work.
+
+Learn to use it wisely in your environment and it will save you time and boost your productivity.
+
+If you think "I can skip AI in my Ops work," be careful: the engineers who know how to use AI will move faster, and over time they will replace those who don't.
+
+⚔️AI is like a sword. It doesn't decide what it cuts, you do.🤺
+A beginner swings it and slices an apple. An experienced engineer, aiming for more, uses the same sword to fell the entire apple tree: more apples, faster, with one well-placed strike.
+As Ops engineers, we live in the CLI, so this series will focus on GitHub Copilot CLI.
+
+✅ Advantages of the CLI
+1. SSH into a VM, launch Copilot CLI, debug the issue, fix it, and document it, all in one place.
+2. Faster response: Copilot CLI reads the logs directly from the server. No more copying log entries and pasting them into a chat window.
+3. Generate code that leads straight to Infrastructure-as-Code.
+4. Ask it to write a script right in the terminal. No IDE needed.
+5. Use the same terminal to work across K8s, cloud resources, Git, ArgoCD, and more.
+
+⚠️ Risks of the CLI
+As Ops engineers, we work in Production. Used carelessly, a prompt can lead to a destructive action. That's why you need guardrails in place before you start. We'll walk through these in upcoming posts.
+
+🔥What's next?
+In my next post, I'll show you how to get started with GitHub Copilot CLI in your own environment, so you can cut the apple. 🍎
+
