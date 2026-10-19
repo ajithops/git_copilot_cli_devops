@@ -1,0 +1,56 @@
+In our day-to-day Ops world, we have multiple ways to access AI. But are you using the right interface for the right job?
+
+Let's break down where to use AI: The Web, The IDE, or directly in your CLI.
+
+1. AI in Web (Chat / Browser)
+✅ Best for researching new tools and technologies
+✅ Exploring architecture patterns and troubleshooting approaches
+✅ Learning unfamiliar commands and concepts
+⚠️ Copying logs, commands, and outputs between the browser and terminal can slow down the workflow.
+Best scenario: Researching a new tool or designing an architecture.
+
+2. AI in IDE (VS Code / JetBrains)
+✅ Great for writing and refactoring code
+✅ Useful for Terraform modules, Kubernetes manifests, and CI/CD pipelines
+✅ Better visibility into multiple files, diffs, and tests
+⚠️ Less convenient when you're troubleshooting directly on a remote server or headless CI runner.
+Best scenario: Refactoring Terraform modules or making changes across a codebase.
+
+3. AI in CLI (GitHub Copilot CLI / Claude Code and others)
+✅ Stay in your terminal while investigating operational issues
+✅ Analyse command output, logs, and files made available to the AI
+✅ Draft Bash, Python, and PowerShell scripts directly from the terminal
+✅ Work with Git, Kubernetes, cloud CLIs, and other operational tools
+✅ A natural fit for SSH sessions, jump boxes, containers, and headless environments.
+Best scenario: Investigating a Kubernetes issue, debugging a CI/CD pipeline, or generating an ad hoc kubectl or az command.
+
+Which surface for which scenario?
+🔥 Live incident / prod outage → CLI (logs flow straight in)
+🏗️ Writing/refactoring Terraform modules → IDE (multi-file awareness)
+🔍 Researching a new tool or pattern → Web (broad knowledge, no execution)
+🔧 CI/CD pipeline debugging → CLI (the runner is headless)
+📝 Runbooks and documentation → IDE or Web (markdown preview)
+⚡ Ad hoc kubectl/az commands → CLI (same shell you’ll run it in)
+
+Other AI CLI tools worth a look
+Claude Code (Anthropic)
+OpenAI Codex CLI
+Amazon Q Developer CLI
+Cursor CLI (Cursor Agent)
+Gemini CLI (Google)
+OpenHands: open-source autonomous coding agent
+
+For this series, GitHub Copilot CLI will be our primary tool.
+
+🚀 Let's get started!
+I've created a repository with scripts to install the latest GitHub Copilot CLI for different operating systems, along with DevOps examples.
+🔗 GitHub Repo:
+https://lnkd.in/gQ2zAdNe
+
+Try your first command:
+
+copilot -p "Hello, World!"
+
+That's it — you've started using AI directly from your terminal! 
+
+We have a Swiss Army knife of AI tools in our hands. The real skill is knowing which tool to use, when to use it, and how to use it safely.
